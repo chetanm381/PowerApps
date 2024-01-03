@@ -10,25 +10,10 @@ Screen2 As screen:
         ZIndex: =1
 
         Container5 As groupContainer.manualLayoutContainer:
+            Fill: =RGBA(123, 52, 111, 1)
             Height: =71
             Width: =1366
             ZIndex: =2
-
-            HtmlText2 As htmlViewer:
-                Height: =Parent.Height
-                HtmlText: |-
-                    =Concatenate("<div style=' height:",HtmlText2.Height,"px;
-                    background: linear-gradient(to right,#56174c,#6c1d5f);
-                    
-                    '
-                    ></div>
-                    ")
-                PaddingBottom: =0
-                PaddingLeft: =0
-                PaddingRight: =0
-                PaddingTop: =0
-                Width: =1366
-                ZIndex: =1
 
             Image1 As image:
                 Height: =71
